@@ -1,0 +1,85 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #161718;
+}
+
+.btn {
+    background-color: crimson;
+    padding: 10px 100px;
+    border-radius: 0px;
+    border: 0px;
+}
+
+/*Jumbotron*/
+.jumbotron {
+    background: url(bg.jpg) no-repeat center center;
+    background-size: cover;
+    background-color: transparent;
+    height: 560px;
+}
+
+/*header*/
+.header ul{
+    list-style: none;
+    display: inline;
+}
+
+.header li {
+    display: inline-block;
+    padding: 15px;
+}
+
+/*main*/
+.main {
+    padding-top: 50px;
+}
+
+/*supporting*/
+.supporting h1{
+    padding-top: 100px;
+}
+.supporting-1, .supporting-2, .supporting-3, .supporting-4 {
+    padding: 70px 30px;
+}
+
+.supporting-2 {
+    background: black;
+}
+
+.supporting-4 {
+    background: url(feature.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    height: 400px;
+}
+
+.supporting-4 h2 {
+    margin-top: 80px;
+}
+
+/*footer*/
+ .footer {
+     background-color: #000;
+     color: #fff;
+     padding: 50px 0 35px 0;
+}
+
+.footer h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer a {
+    color: #aaa;
+    font-size: 13px;
+    display: inline-block;
+    padding: 5px 0;
+}
